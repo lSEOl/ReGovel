@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.regovel">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReGovel">
+        <activity android:name=".DevContact"></activity>
+        <activity
+            android:name=".Profile"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Anilao"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Tubbataha"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ElnidoHiking"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Elnido"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Amanpulo"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Eskaya"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".EnchantedKingdom"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Banaue"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MallofAsia"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Malls"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Scuba"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Entertainment"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".AquaPlanet"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Skyranch"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".BeachResorts"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".HikingTrails"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Boracay"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".DashBoard"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SignUpActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Login"
+            android:launchMode="singleTask" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

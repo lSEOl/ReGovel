@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "915301324917",
+    "project_id": "regovel",
+    "storage_bucket": "regovel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915301324917:android:4e88d5dcdb4c437491803c",
+        "android_client_info": {
+          "package_name": "com.example.regovel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915301324917-0eb768vgu8r2fnu04c51o5ff9lr04hsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-DEHtjySH9J0A0NELjRbDU9svCp8_SkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915301324917-0eb768vgu8r2fnu04c51o5ff9lr04hsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
